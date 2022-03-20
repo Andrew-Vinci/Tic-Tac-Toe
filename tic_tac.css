@@ -1,0 +1,182 @@
+.grid{
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 100px;
+}
+body{
+background-color: lightsteelblue;
+}
+.title{
+text-align: center;
+font-size: 50px;
+font-style: normal;
+text-decoration: underline;
+}
+
+.playerMessage{
+    text-align: right;
+    font-size: 35px;
+    font-style: bold;
+}
+
+#playerChoice1{
+    float: right;
+}
+
+#playerChoice2{
+    float: right;
+}
+
+#reset{
+    float: right;
+}
+
+#scoreLimit{
+    text-align: left;
+    text-decoration: underline;
+    font-style: bold;
+    color: black;
+}
+
+.row{
+height: 100px;
+}
+
+.border-bottom{
+    border-bottom: 10px solid black;
+}
+.border-right{
+    border-right: 10px solid black; 
+}
+
+#scoreKeeperHead1{
+font-style: bold;
+font-size: 25px;
+text-decoration: underline;
+}
+#scoreKeeper1{
+    font-style: bold;
+    font-size: 25px;
+}
+
+#scoreKeeperHead2{
+font-style: bold;
+font-size: 25px;
+text-decoration: underline;
+}
+#scoreKeeper2{
+    font-style: 25px;
+    font-size: 25px;
+}
+
+.column0{
+    height:100px;
+    width:100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.column1{
+    height:100px;
+    width:100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.column2{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.column3{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.column4{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.column5{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.column6{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.column7{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.column8{
+    height:100px;
+    width:100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.column9{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.column1:hover{
+background-color:lightslategray;
+}
+.column2:hover{
+    background-color: lightslategray;
+}
+.column3:hover{
+    background-color: lightslategray;
+}
+.column4:hover{
+    background-color: lightslategray;
+}
+.column5:hover{
+    background-color: lightslategray;
+}
+.column6:hover{
+    background-color: lightslategray;
+}
+.column7:hover{
+    background-color: lightslategray;
+}
+.column1:hover{
+    background-color: lightslategray;
+}
+.column8:hover{
+    background-color: lightslategray;
+}
+.column9:hover{
+    background-color: lightslategray;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tic_tac.css">
+    <title>Andrew Vinci's Tic Tac Toe Project</title>
+</head>
+
+<body>
+<div class = 'playerMessage' id = 'playerMessage'>Player X's Turn</div>
+<button id = "playerChoice2" onclick = "playerChoice2()">Player O Goes First</button>
+<button id = "playerChoice1" onclick = "playerChoice1()">Player X Goes First</button>
+
+<div class = 'scoreKeeperHead1' id = 'scoreKeeperHead1'>Player X</div>
+<div class = 'scoreKeeper1' id = 'scoreKeeper1'>0</div>
+<div class = 'scoreKeeperHead2'  id = 'scoreKeeperHead2'>Player O</div>
+<div class = 'scoreKeeper2' id = 'scoreKeeper2'>0</div>
+<div id = "scoreLimit">First Player to Ten Wins!</div>
+
+    
+<div class="grid" id = "grid">
+    <h1 class = "title">Tic Tac Toe</h1>
+    
+<div class="row border-bottom">
+    <div class="column1 border-right" id = "column1" onclick = "playerAction(this), playerWinner(), scoreBoard(), scoreBoard2()"></div>
+    <div class="column2 border-right" id = "column2" onclick = "playerAction(this), playerWinner(), scoreBoard(), scoreBoard2()"></div>
+    <div class="column3" id = "column3" onclick = "playerAction(this), playerWinner(), scoreBoard(), scoreBoard2()"></div>
+</div>
+<div class="row border-bottom">
+    <div class="column4 border-right" id = "column4" onclick = "playerAction(this), playerWinner(), scoreBoard(), scoreBoard2()"></div>
+    <div class="column5 border-right" id = "column5" onclick = "playerAction(this), playerWinner(), scoreBoard(), scoreBoard2()"></div>
+    <div class="column6" id = "column6" onclick = "playerAction(this), playerWinner(), scoreBoard(), scoreBoard2()"></div>
+</div>
+<div class="row">
+    <div class="column7 border-right" id = "column7" onclick = "playerAction(this), playerWinner(), scoreBoard(), scoreBoard2()"></div>
+    <div class="column8 border-right" id = "column8" onclick = "playerAction(this), playerWinner(), scoreBoard(), scoreBoard2()"></div>
+    <div class="column9" id = "column9" onclick = "playerAction(this), playerWinner(), scoreBoard(), scoreBoard2()"></div>
+</div>
+<div></div>
+<button id = "reset" onclick = "resetButton()">Reset Game Board</button>
+
+
+
+
+</div>
+
+<script src="tic_tac.js"></script>
+
+</body>
+
+
+</html>
